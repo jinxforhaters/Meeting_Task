@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "description": "fix the critical login bug that's been blocking users since yesterday.",
+      "assigned_to": "Sakshi",
+      "deadline": null,
+      "priority": "Critical",
+      "dependencies": [],
+      "reason": "Assigned to Sakshi because their skills (frontend, react, ui, auth) match the task. Marked critical based on urgency/impact keywords in the sentence."
+    },
+    {
+      "id": 2,
+      "description": "optimize the database queries for the analytics dashboard? this should be high priority.",
+      "assigned_to": "Mohit",
+      "deadline": null,
+      "priority": "High",
+      "dependencies": [],
+      "reason": "Assigned to Mohit because their skills (backend, database, performance, api) match the task. Marked high priority based on priority-related keywords."
+    },
+    {
+      "id": 3,
+      "description": "write unit tests for the payment module.",
+      "assigned_to": "Arjun",
+      "deadline": null,
+      "priority": "Medium",
+      "dependencies": [1],
+      "reason": "Assigned to Arjun because their skills (testing, automation, qa) match the task. This task depends on tasks: 1."
+    },
+    {
+      "id": 4,
+      "description": "prepare a summary report of this sprint's progress.",
+      "assigned_to": "Lata",
+      "deadline": "by Friday",
+      "priority": "Medium",
+      "dependencies": [],
+      "reason": "Assigned to Lata because their skills (planning, coordination, communication) match the task."
+    },
+    {
+      "id": 5,
+      "description": "someone should review the new onboarding screens before the release next week.",
+      "assigned_to": null,
+      "deadline": "before the release next week",
+      "priority": "Medium",
+      "dependencies": [],
+      "reason": "No specific assignee mentioned in the transcript."
+    }
+  ]
+  
