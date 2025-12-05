@@ -91,6 +91,10 @@ GROQ_API_KEY=your_groq_api_key_here
 Get your API key from:
 👉 https://console.groq.com/keys
 
+Start the FastAPI Server
+
+uvicorn app.main:app --reload
+
 Open Swagger API (Interactive Docs)
 
 Open:
